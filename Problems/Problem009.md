@@ -22,13 +22,13 @@ $$
 Then
 
 $$\begin{aligned}
-a+b+c=&k(m^2-n^2+2mn+m^2+n^2)\\
-=&2km(m+n)=2\times2^2\times5^3
+a+b+c&=k(m^2-n^2+2mn+m^2+n^2)\\
+&=2km(m+n)=2\times2^2\times5^3
 \end{aligned}$$
 
 Notice that $m+n>m$, then consider factors less than $\sqrt{500}\simeq22.4$. So verify $m$ in $\{2,4,5,10,20\}$. It's easy to find that when $m=20$, $n=5$, then we have
 
 $$\begin{aligned}
-abc=&2mn(m^4-n^4)=2\times2^2\times5^2\times(20^4-5^4)\\
-=&2^3\times5^6\times(2^8-1)=31875000
+abc&=2mn(m^4-n^4)=2\times2^2\times5^2\times(20^4-5^4)\\
+&=2^3\times5^6\times(2^8-1)=31875000
 \end{aligned}$$
