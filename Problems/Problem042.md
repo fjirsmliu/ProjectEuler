@@ -41,16 +41,14 @@ def is_triangle_word(word:str) -> bool:
 
     return is_triangle(value)
 
+count = 0
+
 with open("0042_words.txt", "r") as f:
     content = f.readline().strip()
 
-    words = [word.strip('"') for word in content.split(',')]
-
-count = 0
-
-for word in words:
-    if is_triangle_word(word):
-        count += 1
+    for word in content.split(','):
+        if is_triangle_word(word.strip('"')):
+            count += 1
 
 print(count)
 ```
