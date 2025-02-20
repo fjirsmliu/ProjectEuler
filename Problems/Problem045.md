@@ -26,7 +26,7 @@ Also,
 
 $$ a(a+1) = b(3b-1) = 2c(2c-1) $$
 
-Now, we can verify whether $b(3b-1)$ can be formed by $a(a+1)$ and $a$ should be odd since $a+1=2c$.
+Now, we can verify whether $b(3b-1)$ can be formed by $a(a+1)$ and $a$ should be ODD since $a+1=2c$.
 
 ```python
 from math import sqrt
@@ -48,4 +48,4 @@ while not(is_triangle(b)):
 print(b, b*(3*b-1)//2)
 ```
 
-The output is `31977 1533776805`, so we find that the result is $P_{31977}=1533776805$
+The output is `31977 1533776805`, so we find that the result is $P_{31977}=1533776805$.
