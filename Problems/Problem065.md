@@ -11,12 +11,12 @@ $\sqrt{2} = 1 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2 + ...}}}}$
 The infinite continued fraction can be written, $\sqrt{2} = [1; (2)]$, $(2)$ indicates that $2$ repeats <i>ad infinitum</i>. In a similar way, $\sqrt{23} = [4; (1, 3, 1, 8)]$.
 It turns out that the sequence of partial values of continued fractions for square roots provide the best rational approximations. Let us consider the convergents for $\sqrt{2}$.
 
-$\begin{aligned}
+$$\begin{aligned}
 &1 + \dfrac{1}{2} = \dfrac{3}{2} \\
 &1 + \dfrac{1}{2 + \dfrac{1}{2}} = \dfrac{7}{5}\\
 &1 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2}}} = \dfrac{17}{12}\\
 &1 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2}}}} = \dfrac{41}{29}
-\end{aligned}$
+\end{aligned}$$
 
 Hence the sequence of the first ten convergents for $\sqrt{2}$ are:
 
