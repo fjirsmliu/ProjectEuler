@@ -4,7 +4,7 @@
 
 ### Description
 
-Consider the fraction, $\dfrac n d$, where $n$ and $d$ are positive integers. If $n \lt d$ and $\operatorname{HCF}(n, d)=1$, it is called a reduced proper fraction.
+Consider the fraction, $\dfrac n d$, where $n$ and $d$ are positive integers. If $n \lt d$ and $\gcd(n, d)=1$, it is called a reduced proper fraction.
 
 If we list the set of reduced proper fractions for $d \le 8$ in ascending order of size, we get:
 
